@@ -1,5 +1,3 @@
-import random
-
 
 class Solution:
     def lengthOfLongestSubstring(self, s):
@@ -21,3 +19,4 @@ if __name__ == "__main__":
     solution = Solution()
     my_list = 'abcabcbb'
     print(solution.lengthOfLongestSubstring(my_list))
+    my
