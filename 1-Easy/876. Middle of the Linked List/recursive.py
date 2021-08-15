@@ -13,7 +13,7 @@ class ListOperation:
         new_head = self.reverseList(head.next)
         next_node = head.next  # head -> next_node
         next_node.next = head  # head <- next_node
-        head.next = None         # [x] <- head <- next_node
+        head.next = None  # [x] <- head <- next_node
         return new_head
 
 
@@ -28,11 +28,11 @@ def test_middle_node(lists):
             else:
                 head = ListNode(j)
                 curr = head
-        print('TC{}:\t'.format(i+1), list_operation.reverseList(head))
+        print("TC{}:\t".format(i + 1), list_operation.reverseList(head))
 
 
 if __name__ == "__main__":
-    print('__name__:', "執行此檔案才會顯示")
+    print("__name__:", "執行此檔案才會顯示")
 
     lists = [
         [1, 2, 3],
